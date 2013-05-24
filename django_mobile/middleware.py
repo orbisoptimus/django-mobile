@@ -39,6 +39,9 @@ class MobileDetectionMiddleware(object):
         'up.browser', 'up.link', 'mmp', 'symbian', 'smartphone', 'midp',
         'wap', 'phone', 'windows ce', 'pda', 'mobile', 'mini', 'palm',
         'netfront', 'opera mobi',
+        'android',
+        'wpdesktop', 'zunewp', # WP
+        'kfot', 'kftt', 'kfjwi', 'kfjwa', # Kindle Fire
     ))
     http_accept_regex = re.compile("application/vnd\.wap\.xhtml\+xml", re.IGNORECASE)
 
